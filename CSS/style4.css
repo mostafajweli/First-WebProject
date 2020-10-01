@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {background-image: url(/pictures/bkrn2.jpg);
+
+    background-size: 100%;}
+
+.nav-main{ float: right;
+margin: 21px;}
+
+.nav-main li{list-style: none;
+display: inline-block;
+margin-right: 10px;
+;
+}
+
+.nav-main li a{ 
+text-decoration: none;
+padding: 0.7px 10px;
+font-size: 20px;
+text-transform: uppercase;
+color: white;
+}
+
+.nav-main li a.active{
+    border: 1px solid gray;
+}
+
+.nav-main li:hover { background-color: darkred;}
+
+
+.inner{
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.hhd{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+    font-size: 30px;
+}
+
+
+    
+.contt{
+
+    display: inline-flex;
+    
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    padding: 10px;
+    margin-left: 380px;
+    margin-top: 35px;
+    font-size: 1.2rem;
+}
+
+.skillbox{
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.skillbox:hover > .skill-title:after, .skillbox:hover > .skill-title:before{width: 35px;}
+
+.skillbox:hover .immg{transform: translateY(-10px);}
+.immg{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.immg:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    background:rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px;
+
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    
+}
+
+.skill-title:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0px;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: #2ecc71;
+    transition: 0.4s;
+}
+
+.skill-title:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0px;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: #2ecc71;
+    transition: 0.4s;
+}
+
+.skill-title h3 {color: white;
+margin-top: 0.5rem;}
+
+.imgcon{width: 50px;
+z-index: 2;}

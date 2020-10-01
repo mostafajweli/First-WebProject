@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{ background-image: url(/pictures/bkrn2.jpg);
+background-position: 0 10000px;
+background-size: 100%;
+
+}
+
+
+.nav-main{ float: right;
+margin: 21px;}
+
+.nav-main li{list-style: none;
+display: inline-block;
+margin-right: 10px;
+;
+}
+
+.nav-main li a{ 
+text-decoration: none;
+padding: 0.7px 10px;
+font-size: 20px;
+text-transform: uppercase;
+color: white;
+}
+
+.nav-main li a.active{
+    border: 1px solid gray;
+}
+
+.nav-main li:hover { background-color: darkred;}
+
+.contme{font-family: 'Times New Roman', Times, serif;
+color: white;}
+
+.pr {
+    font-size: 20px;
+    margin-top:30;
+    margin-left:270;
+    margin-right: 200px;
+    
+
+}
+.ttl{
+    margin-top: 80;
+    margin-left: 600;
+    font-size: 50;
+    
+}
+.imgwrap{margin-top: 30;
+    margin-left: 590;}
